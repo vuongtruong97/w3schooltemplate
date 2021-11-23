@@ -19,7 +19,7 @@
     <div class="main js-wrap">
       <!-- Begin Page Header -->
       <div class="header">
-        <div class="nav">
+        <div class="nav js-first-nav">
           <ul>
             <li><a class="text-while" href="#">Home</a></li>
             <li><a class="text-while" href="#band">Band</a></li>
@@ -48,6 +48,7 @@
         </button>
         <div class="second__nav js-second-nav">
           <ul>
+            <li><a class="text-while" href="#">Home</a></li>
             <li><a class="text-while" href="#band">Band</a></li>
             <li><a class="text-while" href="#tour">Tour</a></li>
             <li><a class="text-while" href="#contact">Contact</a></li>
@@ -330,6 +331,7 @@
     const headerBtnRes = document.querySelector(".js-header-btn-responsive");
     const secondNav = document.querySelector(".js-second-nav");
     const webBody = document.querySelector(".js-wrap");
+    const firstNav = document.querySelector(".js-first-nav");
 
     function showSecondNav() {
       secondNav.classList.add("openNav");
@@ -355,6 +357,7 @@
     headerBtnRes.addEventListener("click", showSecondNav);
 
     secondNav.addEventListener("click", hideSecondNav);
+    firstNav.addEventListener("click", hideSecondNav);
 
     modalContainer.addEventListener("click", function (event) {
       event.stopPropagation();

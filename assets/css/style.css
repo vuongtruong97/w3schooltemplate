@@ -422,7 +422,7 @@ a {
 .second__nav {
   display: none;
   position: absolute;
-  top: 46px;
+  top: 0;
   left: 0;
   right: 0;
 }
