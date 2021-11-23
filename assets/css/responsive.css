@@ -64,3 +64,39 @@
     display: block;
   }
 }
+
+@media screen and (max-height: 450px) {
+  .modal-header {
+    padding: 10px 6px;
+  }
+  .modal-header .modal-header-name {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 4px;
+  }
+  .modal-header button {
+    padding: 10px;
+  }
+
+  .modal-content {
+    padding: 0 10px;
+  }
+  .modal-content .modal-input .input-title {
+    width: 100%;
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  .modal-content .modal-input input {
+    padding: 5px;
+    line-height: 20px;
+  }
+  .modal-content > button {
+    padding: 5px;
+    line-height: 22px;
+    margin: 16px 0;
+  }
+  .modal-content > p {
+    margin: 10px 0;
+    line-height: 20px;
+  }
+}
