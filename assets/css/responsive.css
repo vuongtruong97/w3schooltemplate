@@ -50,4 +50,17 @@
     width: 100%;
     margin: 10px 0;
   }
+  .header-search {
+    display: none;
+  }
+  .header .nav ul {
+    overflow: hidden;
+    width: 96px;
+  }
+  .btn__more--responsive {
+    display: block;
+  }
+  .openNav {
+    display: block;
+  }
 }

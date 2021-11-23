@@ -41,6 +41,7 @@ a {
   padding: 0 24px;
 }
 .header {
+  position: relative;
   display: flex;
   flex-direction: row;
   background: #000;
@@ -67,6 +68,7 @@ a {
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  background-color: #000;
 }
 .nav > ul > li:hover > a {
   color: #000 !important;
@@ -401,6 +403,7 @@ a {
 .open {
   display: flex;
 }
+
 @keyframes modalticketcomein {
   from {
     transform: translateY(-400px);
@@ -408,4 +411,25 @@ a {
   to {
     transform: translateY(0);
   }
+}
+.btn__more--responsive {
+  display: none;
+  padding: 0 20px;
+  background-color: #000;
+  border: none;
+  color: #fff;
+}
+.second__nav {
+  display: none;
+  position: absolute;
+  top: 46px;
+  left: 0;
+  right: 0;
+}
+.second__nav ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 46px;
+  text-transform: uppercase;
+  background-color: #000;
 }
