@@ -13,6 +13,10 @@
 }
 /* Mobile Screen */
 @media screen and (max-width: 600px) {
+  .header > .nav img {
+    display: block;
+    width: 20%;
+  }
   .list-member {
     display: block;
   }
