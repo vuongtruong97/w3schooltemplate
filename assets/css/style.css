@@ -18,6 +18,12 @@ ul {
 body {
   position: relative;
 }
+hr {
+  width: 900px;
+  max-width: 90%;
+  color: #ccc;
+  margin: 3px auto;
+}
 .input {
   padding: 10px;
   border: 1px solid #ccc;
@@ -39,6 +45,9 @@ body {
 .three-col {
   width: 33.33333%;
 }
+.four-col {
+  width: 25%;
+}
 a {
   text-decoration: none;
 }
@@ -46,6 +55,8 @@ a {
   color: #fff;
   line-height: 46px;
   padding: 0 24px;
+}
+.topic {
 }
 .header {
   position: relative;
@@ -76,6 +87,13 @@ a {
   align-items: center;
   text-transform: uppercase;
   background-color: #000;
+}
+.header > .nav img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 7%;
 }
 .nav > ul > li:hover > a {
   color: #000 !important;
@@ -113,6 +131,20 @@ a {
   font-weight: 700;
   font-size: 15px;
 }
+.slider .slider-content img {
+  width: 60%;
+}
+video {
+  width: 100%;
+  margin-top: 20px;
+  border-radius: 2rem;
+}
+.band__mv video {
+  width: 100%;
+}
+.band-intro {
+  text-align: center;
+}
 .nav-more {
   position: relative;
 }
@@ -142,6 +174,23 @@ a {
 .content .content-body {
   text-align: center;
 }
+.content-heading .video {
+  position: relative;
+}
+.content-heading .video img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10%;
+}
+.content-heading .video img:hover {
+  cursor: pointer;
+  opacity: 0.75;
+}
+.content-heading .video img:active {
+  opacity: 0;
+}
 .content-heading h2 {
   text-transform: uppercase;
   font-size: 27px;
@@ -166,7 +215,7 @@ a {
 }
 .content-layout {
   padding: 64px 16px;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
 }
 .content-tour {
@@ -182,7 +231,7 @@ a {
   font-weight: 200;
 }
 .list-member .member img {
-  width: 60%;
+  width: 80%;
   border-radius: 5px;
 }
 .list-month {
@@ -223,10 +272,13 @@ a {
 }
 .space {
   background-color: #fff;
+  display: flex;
+  flex-direction: column;
 }
 .list-space .space img {
   width: 100%;
   display: block;
+  flex-shrink: 0;
 }
 .list-space .space img:hover {
   filter: grayscale(100%);
@@ -236,6 +288,9 @@ a {
   color: rgb(0, 0, 0);
   padding: 0 16px;
   text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 .space-about .space-name {
   font-weight: 600;
@@ -252,11 +307,14 @@ a {
   margin: 15px 0;
 }
 .btn {
+  display: block;
   background: #000;
   color: #fff;
   line-height: 22px;
   padding: 8px 16px;
   margin-bottom: 16px;
+  margin-top: auto;
+  flex-shrink: 0;
   border: none;
 }
 .btn:hover {
@@ -405,6 +463,9 @@ a {
 }
 .open {
   display: flex;
+}
+.close {
+  display: none;
 }
 
 @keyframes modalticketcomein {

@@ -2,6 +2,9 @@
 
 /* Ipad pro screen */
 @media screen and (max-width: 1024px) {
+  .header > .nav img {
+    display: none;
+  }
 }
 @media screen and (max-width: 768px) {
   img {
@@ -70,6 +73,9 @@
   }
   .input {
     padding: 12px;
+  }
+  .slider-content :is(p, h2) {
+    display: none;
   }
 }
 

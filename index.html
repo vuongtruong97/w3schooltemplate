@@ -45,6 +45,7 @@
               </div>
             </li>
           </ul>
+          <img src="./assets/slider/KDA_Logo_1.png" alt="" />
         </div>
         <div class="header-search">
           <i class="ti-search"></i>
@@ -66,13 +67,59 @@
 
       <!-- Begin Page Slider -->
       <div class="slider">
-        <img src="./assets/slider/chicago.jpg" alt="" />
+        <img src="./assets/slider/band.jpg" alt="" />
         <div class="slider-content">
-          <h2>New York</h2>
-          <p>The atmosphere in New York is lorem ipsum.</p>
+          <img src="./assets/slider/KDA_Logo_1.png" alt="" />
+          <h2>A DIAMOND IS FOREVER</h2>
+          <p>"Can You Hear Me Now?"</p>
         </div>
       </div>
       <!-- End Page Slider -->
+      <div class="band-intro">
+        <div class="content-header">
+          <div class="content-layout">
+            <div class="content-heading">
+              <h2>The kda Band</h2>
+              <h3>We love music</h3>
+              <p>
+                K/DA là một Nhóm nhạc nữ ảo gồm 4 thành viên là 4 vị tướng với
+                trang phục theo chủ đề âm nhạc trong Liên Minh Huyền Thoại:
+                Ahri, Akali, Evelynn và Kai'Sa. Evelynn và Kai'Sa được lồng
+                tiếng bởi 2 ca sĩ người Mỹ Madison Beer và Jaira Burns, trong
+                khi Ahri và Akali được lồng tiếng bởi 2 thành viên (G)I-dle:
+                Miyeon và Soyeon. K/DA được thành lập bởi Riot Games - cha đẻ
+                của Liên Minh Huyền Thoại và ra mắt công chúng lần đầu tại lễ
+                khai mạc Chung kết thế giới Liên Minh Huyền Thoại 2018 với màn
+                trình diễn trực tiếp bằng công nghệ Thực tế tăng cường cho bài
+                hát đầu tiên của họ - "Pop/Stars". MV chính thức của bài hát
+                cũng được đăng tải lên Youtube, cùng lúc với màn ra mắt của
+                nhóm. Sau đó nhận hiệu ứng lan truyền, ca khúc đã vượt qua 100
+                triệu lượt xem trong vòng một tháng, và hiện tại đã đạt hơn 412
+                triệu lượt xem, cũng như đứng đầu bảng xếp hạng Billboard.
+              </p>
+              <div class="video">
+                <video
+                  onclick="showBtn(), pauseVid()"
+                  id="band_mv"
+                  poster="./assets/slider/band.jpg"
+                  loop
+                >
+                  <source src="./assets/mv__band/kda__all-out.mp4" />
+                </video>
+
+                <img
+                  onclick="hiddenBtn(), playVid()"
+                  class="js_play-btn"
+                  src="./assets/mv__band/poster/play__button.png"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <hr />
 
       <!-- Begin Page Content -->
       <div class="content">
@@ -80,37 +127,54 @@
           <div class="content-header" id="band">
             <div class="content-layout">
               <div class="content-heading">
-                <h2>The Band</h2>
+                <h2>members</h2>
                 <h3>We love music</h3>
                 <p>
-                  We have created a fictional band website. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat. Duis aute irure dolor in
-                  reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                  nulla pariatur. Excepteur sint occaecat cupidatat non
-                  proident, sunt in culpa qui officia deserunt mollit anim id
-                  est laborum consectetur adipiscing elit, sed do eiusmod tempor
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-                  veniam, quis nostrud exercitation ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat.
+                  Các thành viên của K/DA bao gồm bốn nhân vật trong trò chơi
+                  video Liên Minh Huyền Thoại:
+                  <br />
+                  <b>Ahri</b> (lồng tiếng bởi Miyeon) là một pháp sư, một trong
+                  những nhân vật nổi tiếng nhất trong trò chơi.[5] Trong K/DA,
+                  Ahri là trưởng nhóm cùng với Evelynn đóng vai trò là giọng ca
+                  chính. Theo Miyeon, cô bắt đầu tìm hiểu thêm về Liên Minh
+                  Huyền Thoại và đã sử dụng vị tướng Ahri trong trận đấu để hiểu
+                  rõ hơn về nhân vật của mình.
+                  <br />
+                  <b>Akali</b> (được lồng tiếng bởi Soyeon) là một sát thủ trong
+                  LMHT. Trong K/DA, Akali là rapper của nhóm. Soyeon cho biết cô
+                  đã cố gắng "cảm thấy như Akali và di chuyển như thể tôi là
+                  Akali" trong quá trình ghi hình chuyển động cho "POP/STARS".
+                  <br />
+                  <b>Evelynn</b> (được lồng tiếng bởi Madison Beer), tương tự
+                  như Akali cô là một sát thủ, có truyền thuyết là một succubus.
+                  Trong K/DA, Evelynn cùng với Ahri đóng vai trò là giọng ca
+                  chính.
+                  <br />
+                  <b>Kai'Sa</b> (do Jaira Burns lồng tiếng) là một vị tướng mới
+                  ra mắt trong trò chơi, cô là một xạ thủ. Trong K/DA, Kai'Sa
+                  đảm nhiệm vai trò là vũ công chính của nhóm.
                 </p>
                 <div class="list-member row">
-                  <div class="member col three-col">
+                  <div class="member col four-col">
                     <h4>Ahri</h4>
                     <img src="./assets/member/bandmember1.jpg" alt="" />
                   </div>
+                  <div class="member col four-col">
+                    <div class="member">
+                      <h4>Akali</h4>
+                      <img src="./assets/member/bandmember3.jpg" alt="" />
+                    </div>
+                  </div>
 
-                  <div class="member col three-col">
+                  <div class="member col four-col">
                     <h4>Evelynn</h4>
                     <img src="./assets/member/bandmember2.jpg" alt="" />
                   </div>
 
-                  <div class="member col three-col">
+                  <div class="member col four-col">
                     <div class="member">
-                      <h4>Akali</h4>
-                      <img src="./assets/member/bandmember3.jpg" alt="" />
+                      <h4>Kaisa</h4>
+                      <img src="./assets/member/kaisa.jpg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -147,7 +211,8 @@
                     <p class="space-name">New York</p>
                     <p class="sub-space-name">Fri 27 Nov 2016</p>
                     <p>
-                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                      I’m not afraid of death; I just don’t want to be there
+                      when it happens.
                     </p>
                     <button class="btn js-buy-ticket">Buy Tickets</button>
                   </div>
@@ -158,7 +223,8 @@
                     <p class="space-name">Paris</p>
                     <p class="sub-space-name">Sat 28 Nov 2016</p>
                     <p>
-                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                      Sometimes people are beautiful. Not in looks. Not in what
+                      they say. Just in what they are.
                     </p>
                     <button class="btn js-buy-ticket">Buy Tickets</button>
                   </div>
@@ -169,7 +235,8 @@
                     <p class="space-name">San Francisco</p>
                     <p class="sub-space-name">Sun 29 Nov 2016</p>
                     <p>
-                      Praesent tincidunt sed tellus ut rutrum sed vitae justo.
+                      Faith is the art of holding on to things your reason has
+                      once accepted, in spite of your changing moods.
                     </p>
                     <button class="btn js-buy-ticket">Buy Tickets</button>
                   </div>
@@ -355,5 +422,23 @@
     modalContainer.addEventListener("click", function (event) {
       event.stopPropagation();
     });
+  </script>
+  <script>
+    var vid = document.getElementById("band_mv");
+    const playBtn = document.querySelector(".js_play-btn");
+
+    function hiddenBtn() {
+      playBtn.classList.add("close");
+    }
+    function showBtn() {
+      playBtn.classList.remove("close");
+    }
+
+    function playVid() {
+      vid.play();
+    }
+    function pauseVid() {
+      vid.pause();
+    }
   </script>
 </html>
