@@ -117,4 +117,7 @@
     margin: 10px 0;
     line-height: 20px;
   }
+  video {
+    width: 80%;
+  }
 }
