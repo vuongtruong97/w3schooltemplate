@@ -8,6 +8,7 @@
     width: 100%;
   }
 }
+/* Mobile Screen */
 @media screen and (max-width: 600px) {
   .list-member {
     display: block;
@@ -62,6 +63,13 @@
   }
   .openNav {
     display: block;
+  }
+  .btn {
+    padding: 11px 16px;
+    width: 100%;
+  }
+  .input {
+    padding: 12px;
   }
 }
 

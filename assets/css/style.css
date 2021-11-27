@@ -18,6 +18,10 @@ ul {
 body {
   position: relative;
 }
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
 .row {
   display: flex;
   flex-direction: row;
@@ -274,14 +278,11 @@ a {
   justify-content: space-between;
   margin-bottom: 10px;
 }
+
 .inp-contact {
   width: calc(50% - 9px);
-  padding: 10px;
-  border: 1px solid #ccc;
 }
 .contact-note .contact-message input {
-  padding: 10px;
-  border: 1px solid #ccc;
   width: 100%;
   margin-bottom: 18px;
 }
@@ -305,8 +306,8 @@ a {
   display: flex;
   justify-content: center;
 }
-.footer-body .brand-icon ul li i {
-  padding: 0 2px;
+.footer-body .brand-icon ul li a {
+  padding: 10px 10px;
   font-size: 1.5rem;
   color: #666666;
 }
@@ -377,8 +378,7 @@ a {
 .modal-content .modal-input input {
   display: block;
   width: 100%;
-  border: 1px solid #ccc;
-  padding: 8px;
+
   line-height: 22px;
 }
 .modal-content > button {
