@@ -256,12 +256,6 @@ video {
   width: 90%;
   cursor: pointer;
 }
-@keyframes shine {
-  100% {
-    left: 125%;
-  }
-}
-
 .list-month {
   display: block;
 }
