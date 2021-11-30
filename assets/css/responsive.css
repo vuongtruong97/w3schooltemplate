@@ -86,6 +86,9 @@
   .slider-content :is(p, h2) {
     display: none;
   }
+  i {
+    padding: 0;
+  }
 }
 
 @media screen and (max-height: 450px) {
